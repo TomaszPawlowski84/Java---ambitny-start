@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DbUtil {
     private static final String DB_URL = "jdbc:mysql://localhost:3306";
-    private static final String DB_USER = "";
-    private static final String DB_PASS = "";
+    private static final String DB_USER = "pawster";
+    private static final String DB_PASS = "Jab0dzio1984";
     //private static final String DB_PASS = "";
     private static final String DB_PARAMS = "?characterEncoding=utf8";
 //    private static final String DB_PARAMS = "?characterEncoding=utf8&useSSL=false[&nazwa=wartość]*";
