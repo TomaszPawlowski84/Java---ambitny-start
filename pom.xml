@@ -75,6 +75,16 @@
             </plugin>
 
             <plugin>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-maven-plugin</artifactId>
+            <version>9.6.0</version>
+            <configuration>
+                <url>jdbc:h2:file:./db</url>
+                <user>sa</user>
+            </configuration>
+            </plugin>
+
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.1</version>
